@@ -74,7 +74,15 @@ nav {
   cursor: pointer;
   transition: all 0.3s;
 }
-
+.logout__btn {
+  border: none;
+  background: none;
+  font-size: 2.2rem;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.3s;
+  opacity: 0;
+}
 .login__btn:hover,
 .login__btn:focus,
 .btn--sort:hover,
@@ -157,7 +165,15 @@ nav {
 .movements__type--deposit {
   background-image: linear-gradient(to top left, #39b385, #9be15d);
 }
-
+.movements__type--loanRequested {
+  background-image: linear-gradient(to top left, #39a9b3, #5de1d8);
+}
+.movements__type--transfer {
+  background-image: linear-gradient(to top left, #b3ab39, #e1d85d);
+}
+.movements__type--loanPaid {
+  background-image: linear-gradient(to top left, #b35739, #e1875d);
+}
 .movements__type--withdrawal {
   background-image: linear-gradient(to top left, #e52a5a, #ff585f);
 }
@@ -185,7 +201,7 @@ nav {
 
 .summary__value {
   font-size: 2.2rem;
-  margin-right: 2.5rem;
+  margin-right: 2rem;
 }
 
 .summary__value--in,
@@ -194,6 +210,9 @@ nav {
 }
 
 .summary__value--out {
+  color: #f5465d;
+}
+.summary__value--debt {
   color: #f5465d;
 }
 
@@ -241,7 +260,7 @@ h2 {
 
 /* Exceptions for interst */
 .form.form--loan {
-  grid-template-columns: 2.5fr 1fr 2.5fr;
+  grid-template-columns: 2.5fr 2.5fr 1fr;
 }
 .form__label--loan {
   grid-row: 2;
