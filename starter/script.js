@@ -60,8 +60,8 @@ const account3 = {
     '2023-08-15T23:36:17.929Z',
     '2023-08-17T10:51:36.790Z',
   ],
-  currency: 'EGP',
-  locale: 'ar-EG',
+  currency: 'EGP', //Egyptian Pound
+  locale: 'ar-EG', // Egyptian Arabic
 };
 const account4 = {
   owner: 'Ahmed Mohamed',
@@ -98,7 +98,7 @@ const account5 = {
     '2023-08-15T23:36:17.929Z',
     '2023-08-17T10:51:36.790Z',
   ],
-  currency: 'EUR', //Dollar
+  currency: 'EUR', //Euro
   locale: 'en-US', //United States
 };
 const accounts = [account1, account2, account3, account4, account5];
@@ -369,47 +369,5 @@ btnSort.addEventListener('click', function (e) {
   // if it's true then we change it to false and otherwise
   sorted = !sorted;
 });
-/////////////////////////////////////////////////
-/////////////////////////////////////////////////
-// LECTURES
-// console.log(Math.max(2, 5, 7, 6, 7, 10, 257, '200px'));
-// const randomInt = (min, max) =>
-//   Math.trunc(Math.random() * (max - min + 1) + min);
-// console.log(randomInt(10, 20));
-// console.log(Math.round('2.49'));
-// console.log(Number.MAX_SAFE_INTEGER);
-// console.log(2 ** 53 - 1);
 
-// const now = new Date();
-// console.log(now);
-// console.log(new Date(`${account1.movementsDates[0]}`));
-// console.log(new Date(2012, 10, 5, 23, 1, 5));
 
-// console.log(calcDaysPassed(+new Date(2012, 12, 5), +new Date(2012, 12, 8)));
-// const optionsss = {
-//   style: 'unit',
-//   unit: 'mile-per-hour',
-// };
-
-// console.log(Intl.NumberFormat('ar-SY', optionsss).format(2443.25));
-// console.log(Intl.NumberFormat(navigator.language, optionsss).format(2443.25));
-// const ingredients = ['salad', 'tomato'];
-// setTimeout(
-//   (ing1, ing2) => console.log(`I like pizza with ${ing1} and ${ing2}🍕`),
-//   3000,
-//   ingredients[0],
-//   ingredients[1]
-// );
-// setInterval(() => {
-//   console.log(new Date());
-// }, 2000);
-
-// setInterval(() => {
-//   console.log(
-//     new Intl.DateTimeFormat('en-US', {
-//       hour: '2-digit',
-//       minute: 'numeric',
-//       second: 'numeric',
-//     }).format(new Date())
-//   );
-// }, 2000);
