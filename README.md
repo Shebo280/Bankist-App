@@ -1,5 +1,5 @@
 # Bankist-App
-It's a bank application and here is a demo version of it:
+It's a bank application and here is a demo version of it: </br>
 https://shebo280.github.io/Bankist-App/
 
 
